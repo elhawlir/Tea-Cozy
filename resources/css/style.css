@@ -4,8 +4,6 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center;
-  display: block;
 }
 
 /* Header */
@@ -13,13 +11,19 @@ body {
   height: 69px;
   width: 100%;
   position: fixed;
-  display: flex;
   border-bottom: 1px solid seashell;
+  display: flex;
 }
 .top img {
   height: 50px;
   padding-left: 10px;
+  display: flex;
   justify-content: flex-start;
+}
+nav {
+  display: inline;
+  text-align: right;
+  justify-content: flex-end;
 }
 .top a {
   color: seashell;
@@ -29,8 +33,26 @@ body {
 
 /* Our Mission */
 .our {
-  display: flex;
-  width: 1200px;
+  display: block;
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto 0;
+}
+
+/* Featured Tea */
+.tea {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tea img {
+  width: 300px;
+  height: 200px;
+  
 }
