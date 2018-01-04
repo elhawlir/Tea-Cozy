@@ -41,18 +41,49 @@ nav {
   text-align: center;
   margin: auto 0;
 }
+.our h2 h4 {
+  width: 1200px;
+}
 
 /* Featured Tea */
 .tea {
   width: 100%;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: block;
 }
 .tea img {
   width: 300px;
   height: 200px;
-  
+  padding-bottom: 10px;
+
+}
+span {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* locations */
+
+.location {
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.downtown .east .oak {
+width: 300px;
+
+}
+/* Footer */
+
+.footer {
+  height: 200px;
+  text-align: center;
+}
+.copy {
+  text-align: left;
+  padding-left: 20px;
 }
